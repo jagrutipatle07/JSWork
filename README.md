@@ -1,2 +1,2 @@
-# JSWork
-My JS file.
+# JSWor
+This is my Javascript file.
