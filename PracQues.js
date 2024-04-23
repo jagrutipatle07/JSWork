@@ -61,29 +61,52 @@ const readline = require('readline-sync');
 
 
 // Array Search: Write a function to search for a given element in an array and return its index if found, otherwise return -1.
-function indexFound(arr){
-    let index = 0;
-    for (let i=0; i<=arr.length; i++){
-        if (arr[i]==userInput){
-            index = i;
-        }
-        else{
-            index = -1;
-        }
-    }
-    return index;
-}
-let arr = [1,6,5,7,8,2];
-let userInput = readline.questionInt("User input element:-");
-let ElementIndex = indexFound(arr);
-console.log(ElementIndex);
+// function indexFound(arr){
+//     let index = 0;
+//     for (let i=0; i<=arr.length; i++){
+//         if (arr[i]==userInput){
+//             index = i;
+//         }
+//         else{
+//             index = -1;
+//         }
+//     }
+//     return index;
+// }
+// let arr = [1,6,5,7,8,2];
+// let userInput = readline.questionInt("User input element:-");
+// let ElementIndex = indexFound(arr);
+// console.log(ElementIndex);
 
-7992008661
 
 
 
 // Array Sorting: Write a function to sort an array of integers in non-decreasing order (ascending).
-// Array Filtering: Write a function to filter out even numbers from an array of integers and return a new array containing only the even numbers.
+// function bubbleSort(arr){
+//     for (let i = 0; i < arr.length; i++) {
+//         for (let j = 0; j < arr.length - i - 1; j++) {
+//             if (arr[j] >= arr[j + 1]) {
+//                 let temp = arr[j];
+//                 arr[j] = arr[j + 1];
+//                 arr[j + 1] = temp;
+//             }
+//         }
+//     }
+//     return arr;
+// }
 
+// let arr = [1, 6, 5, 7, 8, 2];
+// let sort_Array = bubbleSort(arr);
+// console.log(sort_Array);
+
+
+// Array Filtering: Write a function to filter out even numbers from an array of integers and return a new array containing only the even numbers.
+// function filterEvenNumbers(arr) {
+//     return arr.filter(ele => ele % 2 === 0);
+// }
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let evenNumbers = filterEvenNumbers(arr);
+// console.log(evenNumbers);
 
 
