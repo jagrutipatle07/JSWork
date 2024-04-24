@@ -9,11 +9,10 @@ const readline = require('readline-sync');
 //     for (let i=0; i<arr.length; i++){
 //         sum = sum + arr[i];
 //     }
-//     return sum;
+//     console.log(sum);
 // }
 // let arr = [1,7,2,5,8];
-// let sumOfElements = sum_Array(arr);
-// console.log(sumOfElements);
+// sum_Array(arr);
 
 
 // // Average of Array Elements: Write a function to calculate the average of all elements in an array of integers.
@@ -23,11 +22,10 @@ const readline = require('readline-sync');
 //         sum = sum + arr[i];
 //     }
 //     let Average = sum/arr.length;
-//     return Average;
+//     console.log(Average);
 // }
 // let arr = [1,7,2,5,8];
-// let AverageOfElements = averageOfElements(arr);
-// console.log(AverageOfElements);
+// averageOfElements(arr);
 
 
 // // Find Maximum Element: Write a function to find the maximum element in an array of integers.
@@ -38,11 +36,10 @@ const readline = require('readline-sync');
 //             max = arr[i];
 //         }
 //     }
-//     return max;
+//     console.log(max);
 // }
 // let arr = [9,7,2,5,8];
-// let MaxElements = Max(arr);
-// console.log(MaxElements);
+// Max(arr);
 
 
 // // Find Minimum Element: Write a function to find the minimum element in an array of integers.
@@ -53,11 +50,10 @@ const readline = require('readline-sync');
 //             min = arr[i];
 //         }
 //     }
-//     return min;
+//     console.log(min);
 // }
 // let arr = [9,7,2,5,8];
-// let MinElements = Min(arr);
-// console.log(MinElements);
+// Min(arr);
 
 
 // Array Search: Write a function to search for a given element in an array and return its index if found, otherwise return -1.
@@ -76,7 +72,6 @@ const readline = require('readline-sync');
 // let arr = [1,6,5,7,8,2];
 // let userInput = readline.questionInt("User input element:-");
 // let ElementIndex = indexFound(arr);
-// console.log(ElementIndex);
 
 
 
@@ -92,12 +87,11 @@ const readline = require('readline-sync');
 //             }
 //         }
 //     }
-//     return arr;
+//     console.log(arr);
 // }
 
 // let arr = [1, 6, 5, 7, 8, 2];
-// let sort_Array = bubbleSort(arr);
-// console.log(sort_Array);
+// bubbleSort(arr);
 
 
 // Array Filtering: Write a function to filter out even numbers from an array of integers and return a new array containing only the even numbers.
@@ -108,5 +102,6 @@ const readline = require('readline-sync');
 // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // let evenNumbers = filterEvenNumbers(arr);
 // console.log(evenNumbers);
+
 
 
